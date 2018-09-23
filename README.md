@@ -1,21 +1,21 @@
 # nightwatchJs_PageObjects
 Automation test scripting using nightwatchjs with page object model design pattern
 
-##Sample Automation using Nightwatchjs
+## Sample Automation using Nightwatchjs
 
-#Prerequisite installation
+# Prerequisite installation
 * JAVA 8
 * NodeJS
 * Visual Studio Code (or similar IDE)
 
-#Installation Commands
+# Installation Commands
 ```sh
 npm install nightwatch
 npm install nightwatch-html-reporter
 npm install
 ```
 
-#Runing Tests
+# Runing Tests
 
 From the root folder run command :
 * Running all tests
