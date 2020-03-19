@@ -1,0 +1,29 @@
+{
+  "src_folders": [
+    "test/tests"
+  ],
+  "page_objects_path": [
+    "test/pages"
+  ],
+  "webdriver": {
+    "start_process": true
+  },
+  "test_settings": {
+    "default": {
+      "webdriver": {
+        "server_path": "node_modules/.bin/chromedriver",
+        "port": 9515
+      },
+      "desiredCapabilities": {
+        "browserName": "chrome"
+      },
+      "acceptSslCerts": true,
+      "chromeOptions": {
+        "args": [
+          "headless",
+          "disable-gpu"
+        ]
+      }
+    }
+  }
+}

@@ -1,19 +1,20 @@
 {
-  "name": "nightwatch-pageobject",
-  "version": "1.0.0",
-  "description": "POC for homesite application automation",
-  "main": "nightwatch.js",
+  "name": "nightwatch-demo",
+  "version": "0.0.1",
+  "description": "E2E test demo using https://nightwatchjs.org",
+  "repository": "https://github.com/jimCresswell/nightwatch-demo.git",
+  "author": "jaffamonkey <paullittlebury@gmail.com>",
   "scripts": {
-    "test": ""
+    "test": "./node_modules/.bin/nightwatch"
   },
-  "author": "Abhilash Sanne",
-  "license": "ISC",
+  "license": "MIT",
+  "private": true,
   "devDependencies": {
-    "chromedriver": "^2.42.0",
-    "nightwatch": "^0.9.21",
-    "selenium-server": "^3.14.0"
-  },
-  "dependencies": {
-    "nightwatch-html-reporter": "^2.0.5"
+    "assert": "latest",
+    "chromedriver": "latest",
+    "eslint": "latest",
+    "express": "latest",
+    "nightwatch": "latest",
+    "superagent": "latest"
   }
 }
