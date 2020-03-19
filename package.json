@@ -1,8 +1,8 @@
 {
-  "name": "nightwatch-demo",
+  "name": "nightwatchjs-pageobjects",
   "version": "0.0.1",
-  "description": "E2E test demo using https://nightwatchjs.org",
-  "repository": "https://github.com/jimCresswell/nightwatch-demo.git",
+  "description": "Nightwatch with PageObjects",
+  "repository": "https://github.com/jaffamonkey/nightwatchjs-pageobjects.git",
   "author": "jaffamonkey <paullittlebury@gmail.com>",
   "scripts": {
     "test": "./node_modules/.bin/nightwatch"
@@ -10,11 +10,8 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "assert": "latest",
     "chromedriver": "latest",
     "eslint": "latest",
-    "express": "latest",
-    "nightwatch": "latest",
-    "superagent": "latest"
+    "nightwatch": "latest"
   }
 }

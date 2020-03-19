@@ -12,17 +12,20 @@
     "default": {
       "webdriver": {
         "server_path": "node_modules/.bin/chromedriver",
-        "port": 9515
+        "port": 9515,
+        "cli_args": [
+          "--log", "debug"
+        ]
       },
       "desiredCapabilities": {
-        "browserName": "chrome"
-      },
-      "acceptSslCerts": true,
-      "chromeOptions": {
-        "args": [
-          "headless",
-          "disable-gpu"
-        ]
+        "browserName": "chrome",
+        "chromeOptions": {
+          "args": [
+            "headless",
+            "disable-gpu"
+          ]
+        },
+        "acceptSslCerts": true
       }
     }
   }
